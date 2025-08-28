@@ -1,0 +1,70 @@
+/*Aqui temos a estilização de toda a estrutura do site.*/
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(Imagens/pink_background.jpg); background-size: cover;
+}
+
+/*Essas 4 linhas definem o estilo do título, texto e links presentes no corpo do site.*/
+h1 {color: #770140;}
+p {color: #770140;}
+a {color: hotpink; text-decoration: underline;}
+a:hover {color: purple; text-decoration: underline;}
+
+/*Essa é a estilização para o cabeçalho do site*/
+header {
+ background-color: #ff40bc;
+    color: #fff;
+    padding: 0.1rem 0;   
+}
+
+/*Aqui é a estilização para os links presentes no cabeçalho.*/
+nav ul {list-style: none;padding: 0;display: flex;justify-content: center;}
+nav ul li {margin: 0 1rem;}
+nav ul li a {color: #fff;text-decoration: none;}
+nav ul li a:hover {color: #610177;}
+
+/*O main se refere à caixa que engloba os textos e links do corpo do site, é a estrutura
+entre cabeçalho e rodapé.*/
+main {
+    padding: 2rem;
+    background-color: #ffdff0;
+    margin: 2rem auto;
+    max-width: 1000px;
+    box-shadow: 0 0 10px #770140;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*Essa é a estilização do formulário para contato.*/
+form {display: flex; flex-direction: column;}
+form label {margin-top: 1rem;}
+form input, form textarea {padding: 0.5rem;margin-top: 0.5rem;}
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color:#ff40bc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/*Estruturação do rodapé do site.*/
+footer {
+    background-color: #ff40bc;
+    color: #fff;
+    padding: 0.1rem 0;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+    position: absolute;
+    text-align: center;
+}
+
+/*Estruturação da imagem utilizada na página Sobre_mim.*/
+img {
+    width: 150px;
+    position: initial;
+    border-radius: 10px;
+}
